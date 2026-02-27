@@ -12,9 +12,9 @@ main{
 }
 
 #sap_logo{
-    width: 240px;
+    width: 220px;
     position: fixed;
-    left: 12px;
+    left: 15px;
 }
 
 #sap_navbar{
@@ -29,4 +29,50 @@ main{
     padding: 20px;
     gap: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#blocos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    text-align: center;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.secao{
+    background-color: rgb(214, 233, 255);
+    color: rgb(0, 3, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-wrap: break-word;
+    word-break: normal;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.texto_bloco{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+
+#assistente_virtual{
+    left: 0;
+    width: 60%;
+    padding-top: 60px;
+}
+
+#texto_assistente{
+    font-size: xx-large;
+    text-align: left;
+}
+
+#fale_comigo{
+    width: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
